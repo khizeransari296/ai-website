@@ -1,0 +1,53 @@
+/**
+ * Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('path_to_your_image.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Features Section Styles */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Portfolio Styles */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Services Styles */
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
